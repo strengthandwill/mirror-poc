@@ -1,1 +1,779 @@
-{"many":{"adjective":{"ant":["few"],"rel":["more","some"],"sim":["galore","many a","many an","many another","numerous","some","umpteen","umteen"]}},"years":{"noun":{"syn":["old age","age","eld","geezerhood","long time","days","life","period","period of time","time of life","time period"]}},"audit":{"noun":{"syn":["audited account","accounting","accounting system","examination","method of accounting","scrutiny"]},"verb":{"syn":["scrutinize","scrutinise","inspect","analyse","analyze","canvas","canvass","examine","learn","read","study","take"]}},"big":{"adjective":{"syn":["large","bad","prominent","boastful","braggy","cock-a-hoop","crowing","self-aggrandizing","self-aggrandising","swelled","vainglorious","adult","full-grown","fully grown","grown","grownup","magnanimous","bighearted","bounteous","bountiful","freehanded","handsome","giving","liberal","openhanded","enceinte","expectant","gravid","braggart","bragging","great","heavy","with child"],"ant":["little","small"],"sim":["ample","astronomic","astronomical","banging","bear-sized","bigger","biggish","blown-up","bouffant","broad","Brobdingnagian","bulky","capacious","colossal","conspicuous","cosmic","deep","double","elephantine","enlarged","enormous","epic","extended","extensive","full-size","galactic","gargantuan","generous","giant","gigantic","grand","great","heavy","heroic","huge","hulking","hulky","humongous","immense","important","intemperate","intense","jumbo","king-size","king-sized","large-mouthed","large-scale","larger","larger-than-life","largish","life-size","life-sized","lifesize","loud","macro","mammoth","man-sized","massive","mature","medium-large","monolithic","monstrous","monumental","mountainous","of import","outsize","outsized","overlarge","oversize","oversized","plumping","pregnant","prodigious","proud","puffy","queen-size","queen-sized","rangy","sizable","sizeable","spacious","stupendous","super","thumping","titanic","too large","tremendous","vast","volumed","voluminous","walloping","whacking","whopping","wide","wide-ranging"],"usr":["awesome"]},"adverb":{"syn":["boastfully","vauntingly","large"],"ant":["small"]}},"fresh":{"adjective":{"syn":["bracing","brisk","refreshing","refreshful","tonic","new","novel","sweet","invigorated","refreshed","reinvigorated","unfermented","clean","unused","impertinent","impudent","overbold","smart","saucy","sassy","wise","energising","energizing"],"ant":["preserved","rotten","salty","stale"],"rel":["new"],"sim":["new","clean","caller","crisp","crunchy","firm","forward","fresh-cut","good","hot","invigorating","lactating","new-made","original","pure","rested","strong","undecomposed","unprocessed","unsoured","unspoiled","unspoilt","warm","wet"]},"adverb":{"syn":["newly","freshly","new","recently"]}},"grad":{"noun":{"syn":["grade","alumnus","alumna","alum","graduate","angular unit","bookman","scholar","scholarly person","student"]}},"managerial":{"adjective":{"rel":["social control"]}},"position":{"noun":{"syn":["place","military position","view","perspective","posture","attitude","status","post","berth","office","spot","billet","situation","spatial relation","placement","location","locating","positioning","emplacement","stance","side","stead","lieu","activity","assumption","bodily property","business","condition","function","item","job","line","line of work","mental attitude","occupation","opinion","orientation","part","point","relation","role","state"]},"verb":{"syn":["position","put","set","place","pose","lay","displace","move"],"rel":["lay out","put across","put away","put back","put down","put off","put on","put over","put together","put up","set back","set down","set out","set up"]}},"team":{"noun":{"syn":["squad","animal group","social unit","unit"]},"verb":{"syn":["team up","aggroup","group"]}},"auditing":{"noun":{"syn":["audited account","accounting","accounting system","examination","method of accounting","scrutiny"]},"verb":{"syn":["scrutinize","scrutinise","inspect","analyse","analyze","canvas","canvass","examine","learn","read","study","take"]}},"companies":{},"asia":{"noun":{"syn":["Asia","accumulation","aggregation","assemblage","collection","continent"]}},"pacific":{"adjective":{"syn":["Pacific","peaceable"],"rel":["ocean"],"sim":["peaceful"]},"noun":{"syn":["Pacific","Pacific Ocean","ocean"]}},"time":{"noun":{"syn":["clip","clock time","fourth dimension","meter","metre","prison term","sentence","attribute","case","dimension","example","experience","indication","instance","instant","meter reading","minute","moment","period","period of time","reading","rhythmicity","second","term","time period"]},"verb":{"syn":["clock","adjust","correct","determine","influence","measure","mold","quantify","regulate","schedule","set","shape"]}},"driven":{"adjective":{"syn":["goaded","impelled","compulsive","determined"],"sim":["ambitious","involuntary","motivated","nonvoluntary","unvoluntary"]}},"success":{"noun":{"syn":["achiever","winner","succeeder","attainment","happening","individual","mortal","natural event","occurrence","occurrent","person","prosperity","somebody","someone","soul","successfulness"],"ant":["failure","loser"]}},"goal":{"noun":{"syn":["end","finish","destination","cognitive content","content","game equipment","mental object","score"]}},"front":{"adjective":{"ant":["back"],"rel":["anterior","first","fore"],"sim":["advance","advanced","foremost","frontal","frontmost","head-on","in advance"]},"noun":{"syn":["front end","forepart","battlefront","front line","front man","figurehead","nominal head","straw man","strawman","presence","movement","social movement","appearance","area","arena","atmospheric phenomenon","beguiler","cheat","cheater","deceiver","domain","face","field","line","orbit","place","position","proximity","side","slicker","social group","sphere","trickster"],"ant":["back","rear"]},"verb":{"syn":["look","face","breast","confront","lie"],"ant":["back"]}},"next":{"adjective":{"syn":["following","adjacent","future","side by side","succeeding"],"sim":["close","incoming","succeeding"]}},"role":{"noun":{"syn":["function","office","part","character","theatrical role","persona","purpose","use","activity","characterization","duty","enactment","personation","portrayal","usefulness","utility"]}},"keen":{"adjective":{"syn":["acute","discriminating","incisive","knifelike","penetrating","penetrative","piercing","sharp","exquisite","bang-up","bully","corking","cracking","dandy","great","groovy","neat","nifty","peachy","slap-up","swell","smashing","cutting","stabbing","lancinate","lancinating","not bad"],"sim":["sharp","good","intense","perceptive"]},"noun":{"syn":["coronach","dirge","lament","requiem","threnody"]},"verb":{"syn":["lament","express emotion","express feelings"]}},"fp&a":{},"mnc":{},"finance":{"noun":{"syn":["business","business enterprise","commercial enterprise","direction","economic science","economics","management","political economy"]},"verb":{"syn":["credit","pay"]}},"knowledge":{"noun":{"syn":["cognition","noesis","psychological feature"]}}}
+{
+  "many":{
+    "adjective":{
+      "ant":[
+        "few"
+      ],
+      "rel":[
+        "more",
+        "some"
+      ],
+      "sim":[
+        "galore",
+        "many a",
+        "many an",
+        "many another",
+        "numerous",
+        "some",
+        "umpteen",
+        "umteen"
+      ]
+    }
+  },
+  "years":{
+    "noun":{
+      "syn":[
+        "old age",
+        "age",
+        "eld",
+        "geezerhood",
+        "long time",
+        "days",
+        "life",
+        "period",
+        "period of time",
+        "time of life",
+        "time period"
+      ]
+    }
+  },
+  "audit":{
+    "noun":{
+      "syn":[
+        "audited account",
+        "accounting",
+        "accounting system",
+        "examination",
+        "method of accounting",
+        "scrutiny"
+      ]
+    },
+    "verb":{
+      "syn":[
+        "scrutinize",
+        "scrutinise",
+        "inspect",
+        "analyse",
+        "analyze",
+        "canvas",
+        "canvass",
+        "examine",
+        "learn",
+        "read",
+        "study",
+        "take"
+      ]
+    }
+  },
+  "big":{
+    "adjective":{
+      "syn":[
+        "large",
+        "bad",
+        "prominent",
+        "boastful",
+        "braggy",
+        "cock-a-hoop",
+        "crowing",
+        "self-aggrandizing",
+        "self-aggrandising",
+        "swelled",
+        "vainglorious",
+        "adult",
+        "full-grown",
+        "fully grown",
+        "grown",
+        "grownup",
+        "magnanimous",
+        "bighearted",
+        "bounteous",
+        "bountiful",
+        "freehanded",
+        "handsome",
+        "giving",
+        "liberal",
+        "openhanded",
+        "enceinte",
+        "expectant",
+        "gravid",
+        "braggart",
+        "bragging",
+        "great",
+        "heavy",
+        "with child"
+      ],
+      "ant":[
+        "little",
+        "small"
+      ],
+      "sim":[
+        "ample",
+        "astronomic",
+        "astronomical",
+        "banging",
+        "bear-sized",
+        "bigger",
+        "biggish",
+        "blown-up",
+        "bouffant",
+        "broad",
+        "Brobdingnagian",
+        "bulky",
+        "capacious",
+        "colossal",
+        "conspicuous",
+        "cosmic",
+        "deep",
+        "double",
+        "elephantine",
+        "enlarged",
+        "enormous",
+        "epic",
+        "extended",
+        "extensive",
+        "full-size",
+        "galactic",
+        "gargantuan",
+        "generous",
+        "giant",
+        "gigantic",
+        "grand",
+        "great",
+        "heavy",
+        "heroic",
+        "huge",
+        "hulking",
+        "hulky",
+        "humongous",
+        "immense",
+        "important",
+        "intemperate",
+        "intense",
+        "jumbo",
+        "king-size",
+        "king-sized",
+        "large-mouthed",
+        "large-scale",
+        "larger",
+        "larger-than-life",
+        "largish",
+        "life-size",
+        "life-sized",
+        "lifesize",
+        "loud",
+        "macro",
+        "mammoth",
+        "man-sized",
+        "massive",
+        "mature",
+        "medium-large",
+        "monolithic",
+        "monstrous",
+        "monumental",
+        "mountainous",
+        "of import",
+        "outsize",
+        "outsized",
+        "overlarge",
+        "oversize",
+        "oversized",
+        "plumping",
+        "pregnant",
+        "prodigious",
+        "proud",
+        "puffy",
+        "queen-size",
+        "queen-sized",
+        "rangy",
+        "sizable",
+        "sizeable",
+        "spacious",
+        "stupendous",
+        "super",
+        "thumping",
+        "titanic",
+        "too large",
+        "tremendous",
+        "vast",
+        "volumed",
+        "voluminous",
+        "walloping",
+        "whacking",
+        "whopping",
+        "wide",
+        "wide-ranging"
+      ],
+      "usr":[
+        "awesome"
+      ]
+    },
+    "adverb":{
+      "syn":[
+        "boastfully",
+        "vauntingly",
+        "large"
+      ],
+      "ant":[
+        "small"
+      ]
+    }
+  },
+  "fresh":{
+    "adjective":{
+      "syn":[
+        "bracing",
+        "brisk",
+        "refreshing",
+        "refreshful",
+        "tonic",
+        "new",
+        "novel",
+        "sweet",
+        "invigorated",
+        "refreshed",
+        "reinvigorated",
+        "unfermented",
+        "clean",
+        "unused",
+        "impertinent",
+        "impudent",
+        "overbold",
+        "smart",
+        "saucy",
+        "sassy",
+        "wise",
+        "energising",
+        "energizing"
+      ],
+      "ant":[
+        "preserved",
+        "rotten",
+        "salty",
+        "stale"
+      ],
+      "rel":[
+        "new"
+      ],
+      "sim":[
+        "new",
+        "clean",
+        "caller",
+        "crisp",
+        "crunchy",
+        "firm",
+        "forward",
+        "fresh-cut",
+        "good",
+        "hot",
+        "invigorating",
+        "lactating",
+        "new-made",
+        "original",
+        "pure",
+        "rested",
+        "strong",
+        "undecomposed",
+        "unprocessed",
+        "unsoured",
+        "unspoiled",
+        "unspoilt",
+        "warm",
+        "wet"
+      ]
+    },
+    "adverb":{
+      "syn":[
+        "newly",
+        "freshly",
+        "new",
+        "recently"
+      ]
+    }
+  },
+  "grad":{
+    "noun":{
+      "syn":[
+        "grade",
+        "alumnus",
+        "alumna",
+        "alum",
+        "graduate",
+        "angular unit",
+        "bookman",
+        "scholar",
+        "scholarly person",
+        "student"
+      ]
+    }
+  },
+  "managerial":{
+    "adjective":{
+      "rel":[
+        "social control"
+      ]
+    }
+  },
+  "position":{
+    "noun":{
+      "syn":[
+        "place",
+        "military position",
+        "view",
+        "perspective",
+        "posture",
+        "attitude",
+        "status",
+        "post",
+        "berth",
+        "office",
+        "spot",
+        "billet",
+        "situation",
+        "spatial relation",
+        "placement",
+        "location",
+        "locating",
+        "positioning",
+        "emplacement",
+        "stance",
+        "side",
+        "stead",
+        "lieu",
+        "activity",
+        "assumption",
+        "bodily property",
+        "business",
+        "condition",
+        "function",
+        "item",
+        "job",
+        "line",
+        "line of work",
+        "mental attitude",
+        "occupation",
+        "opinion",
+        "orientation",
+        "part",
+        "point",
+        "relation",
+        "role",
+        "state"
+      ]
+    },
+    "verb":{
+      "syn":[
+        "position",
+        "put",
+        "set",
+        "place",
+        "pose",
+        "lay",
+        "displace",
+        "move"
+      ],
+      "rel":[
+        "lay out",
+        "put across",
+        "put away",
+        "put back",
+        "put down",
+        "put off",
+        "put on",
+        "put over",
+        "put together",
+        "put up",
+        "set back",
+        "set down",
+        "set out",
+        "set up"
+      ]
+    }
+  },
+  "team":{
+    "noun":{
+      "syn":[
+        "squad",
+        "animal group",
+        "social unit",
+        "unit"
+      ]
+    },
+    "verb":{
+      "syn":[
+        "team up",
+        "aggroup",
+        "group"
+      ]
+    }
+  },
+  "auditing":{
+    "noun":{
+      "syn":[
+        "audited account",
+        "accounting",
+        "accounting system",
+        "examination",
+        "method of accounting",
+        "scrutiny"
+      ]
+    },
+    "verb":{
+      "syn":[
+        "scrutinize",
+        "scrutinise",
+        "inspect",
+        "analyse",
+        "analyze",
+        "canvas",
+        "canvass",
+        "examine",
+        "learn",
+        "read",
+        "study",
+        "take"
+      ]
+    }
+  },
+  "companies":{
+
+  },
+  "asia":{
+    "noun":{
+      "syn":[
+        "Asia",
+        "accumulation",
+        "aggregation",
+        "assemblage",
+        "collection",
+        "continent"
+      ]
+    }
+  },
+  "pacific":{
+    "adjective":{
+      "syn":[
+        "Pacific",
+        "peaceable"
+      ],
+      "rel":[
+        "ocean"
+      ],
+      "sim":[
+        "peaceful"
+      ]
+    },
+    "noun":{
+      "syn":[
+        "Pacific",
+        "Pacific Ocean",
+        "ocean"
+      ]
+    }
+  },
+  "time":{
+    "noun":{
+      "syn":[
+        "clip",
+        "clock time",
+        "fourth dimension",
+        "meter",
+        "metre",
+        "prison term",
+        "sentence",
+        "attribute",
+        "case",
+        "dimension",
+        "example",
+        "experience",
+        "indication",
+        "instance",
+        "instant",
+        "meter reading",
+        "minute",
+        "moment",
+        "period",
+        "period of time",
+        "reading",
+        "rhythmicity",
+        "second",
+        "term",
+        "time period"
+      ]
+    },
+    "verb":{
+      "syn":[
+        "clock",
+        "adjust",
+        "correct",
+        "determine",
+        "influence",
+        "measure",
+        "mold",
+        "quantify",
+        "regulate",
+        "schedule",
+        "set",
+        "shape"
+      ]
+    }
+  },
+  "driven":{
+    "adjective":{
+      "syn":[
+        "goaded",
+        "impelled",
+        "compulsive",
+        "determined"
+      ],
+      "sim":[
+        "ambitious",
+        "involuntary",
+        "motivated",
+        "nonvoluntary",
+        "unvoluntary"
+      ]
+    }
+  },
+  "success":{
+    "noun":{
+      "syn":[
+        "achiever",
+        "winner",
+        "succeeder",
+        "attainment",
+        "happening",
+        "individual",
+        "mortal",
+        "natural event",
+        "occurrence",
+        "occurrent",
+        "person",
+        "prosperity",
+        "somebody",
+        "someone",
+        "soul",
+        "successfulness"
+      ],
+      "ant":[
+        "failure",
+        "loser"
+      ]
+    }
+  },
+  "goal":{
+    "noun":{
+      "syn":[
+        "end",
+        "finish",
+        "destination",
+        "cognitive content",
+        "content",
+        "game equipment",
+        "mental object",
+        "score"
+      ]
+    }
+  },
+  "front":{
+    "adjective":{
+      "ant":[
+        "back"
+      ],
+      "rel":[
+        "anterior",
+        "first",
+        "fore"
+      ],
+      "sim":[
+        "advance",
+        "advanced",
+        "foremost",
+        "frontal",
+        "frontmost",
+        "head-on",
+        "in advance"
+      ]
+    },
+    "noun":{
+      "syn":[
+        "front end",
+        "forepart",
+        "battlefront",
+        "front line",
+        "front man",
+        "figurehead",
+        "nominal head",
+        "straw man",
+        "strawman",
+        "presence",
+        "movement",
+        "social movement",
+        "appearance",
+        "area",
+        "arena",
+        "atmospheric phenomenon",
+        "beguiler",
+        "cheat",
+        "cheater",
+        "deceiver",
+        "domain",
+        "face",
+        "field",
+        "line",
+        "orbit",
+        "place",
+        "position",
+        "proximity",
+        "side",
+        "slicker",
+        "social group",
+        "sphere",
+        "trickster"
+      ],
+      "ant":[
+        "back",
+        "rear"
+      ]
+    },
+    "verb":{
+      "syn":[
+        "look",
+        "face",
+        "breast",
+        "confront",
+        "lie"
+      ],
+      "ant":[
+        "back"
+      ]
+    }
+  },
+  "next":{
+    "adjective":{
+      "syn":[
+        "following",
+        "adjacent",
+        "future",
+        "side by side",
+        "succeeding"
+      ],
+      "sim":[
+        "close",
+        "incoming",
+        "succeeding"
+      ]
+    }
+  },
+  "role":{
+    "noun":{
+      "syn":[
+        "function",
+        "office",
+        "part",
+        "character",
+        "theatrical role",
+        "persona",
+        "purpose",
+        "use",
+        "activity",
+        "characterization",
+        "duty",
+        "enactment",
+        "personation",
+        "portrayal",
+        "usefulness",
+        "utility"
+      ]
+    }
+  },
+  "keen":{
+    "adjective":{
+      "syn":[
+        "acute",
+        "discriminating",
+        "incisive",
+        "knifelike",
+        "penetrating",
+        "penetrative",
+        "piercing",
+        "sharp",
+        "exquisite",
+        "bang-up",
+        "bully",
+        "corking",
+        "cracking",
+        "dandy",
+        "great",
+        "groovy",
+        "neat",
+        "nifty",
+        "peachy",
+        "slap-up",
+        "swell",
+        "smashing",
+        "cutting",
+        "stabbing",
+        "lancinate",
+        "lancinating",
+        "not bad"
+      ],
+      "sim":[
+        "sharp",
+        "good",
+        "intense",
+        "perceptive"
+      ]
+    },
+    "noun":{
+      "syn":[
+        "coronach",
+        "dirge",
+        "lament",
+        "requiem",
+        "threnody"
+      ]
+    },
+    "verb":{
+      "syn":[
+        "lament",
+        "express emotion",
+        "express feelings"
+      ]
+    }
+  },
+  "fp&a":{
+
+  },
+  "mnc":{
+
+  },
+  "finance":{
+    "noun":{
+      "syn":[
+        "business",
+        "business enterprise",
+        "commercial enterprise",
+        "direction",
+        "economic science",
+        "economics",
+        "management",
+        "political economy"
+      ]
+    },
+    "verb":{
+      "syn":[
+        "credit",
+        "pay"
+      ]
+    }
+  },
+  "knowledge":{
+    "noun":{
+      "syn":[
+        "cognition",
+        "noesis",
+        "psychological feature"
+      ]
+    }
+  }
+}
