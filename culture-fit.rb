@@ -84,7 +84,6 @@ candidate1 = [
   'role',
   'keen',
   'FP&A',
-  'role',
   'big',
   'MNC',
   'finance',
@@ -133,6 +132,16 @@ def write_file(filename, words)
   File.open("#{filename}.json", 'w') { |file| file.write(hash.to_json) }
 end
 
+def create_dataset(hiring, candidate1, candidate2)
+  puts "[#{Time.now.to_s}][hiring]"
+  write_file('hiring', hiring)
+  puts "[#{Time.now.to_s}][candidate1]"
+  write_file('candidate1', candidate1)
+  puts "[#{Time.now.to_s}][candidate2]"
+  write_file('candidate2', candidate2)
+  puts "[#{Time.now.to_s}][terminated]"
+end
+
 def read_hash(filename)
   hash = Hash.new
   json = read_file(filename)
@@ -151,17 +160,43 @@ def read_hash(filename)
   hash
 end
 
+def create_hiring_weightage
+  hiring_hash = read_hash('hiring')
+  hash = Hash.new
+  hiring_hash.each do |element|
+    count = element[1].count
+    element[1].each_with_index do |w, index|
+      word = w.downcase
+      hash[word] =  (count - index).to_f / count
+    end
+  end
+  hash
+end
+
+def match_candidate(candidate)
+  score = 0
+  hiring_weightage = create_hiring_weightage
+  candidate.each do |word|
+    unless hiring_weightage[word].nil?
+      puts "[#{word}][#{hiring_weightage[word]}] match!"
+      score += hiring_weightage[word]
+    end
+  end
+  score
+end
+
 def read_file(filename)
   JSON.parse(File.read("#{filename}.json"))
 end
 
-# puts "[#{Time.now.to_s}][hiring]"
-# write_file('hiring', hiring)
-# puts "[#{Time.now.to_s}][candidate1]"
-# write_file('candidate1', candidate1)
-# puts "[#{Time.now.to_s}][candidate2]"
-# write_file('candidate2', candidate2)
-# puts "[#{Time.now.to_s}][terminated]"
+def score_candidates(candidate1, candidate2)
+  puts 'Matching candidate1..'
+  score1 = match_candidate(candidate1)
+  puts 'Matching candidate2..'
+  score2 = match_candidate(candidate2)
+  puts "Candidate1: #{score1}"
+  puts "Candidate2: #{score2}"
+end
 
-byebug
-byebug
+create_dataset(hiring, candidate1, candidate2)
+score_candidates(candidate1, candidate2)
