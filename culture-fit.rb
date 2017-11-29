@@ -176,6 +176,8 @@ end
 def match_candidate(candidate)
   score = 0
   hiring_weightage = create_hiring_weightage
+  byebug
+  byebug
   candidate.each do |word|
     unless hiring_weightage[word].nil?
       puts "[#{word}][#{hiring_weightage[word]}] match!"
@@ -198,5 +200,5 @@ def score_candidates(candidate1, candidate2)
   puts "Candidate2: #{score2}"
 end
 
-create_dataset(hiring, candidate1, candidate2)
+# create_dataset(hiring, candidate1, candidate2)
 score_candidates(candidate1, candidate2)
