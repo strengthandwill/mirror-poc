@@ -133,6 +133,24 @@ def write_file(filename, words)
   File.open("#{filename}.json", 'w') { |file| file.write(hash.to_json) }
 end
 
+def read_hash(filename)
+  hash = Hash.new
+  json = read_file(filename)
+  json.each do |element|
+    hash[element[0]] = [ element[0] ]
+    if element[1]['adjective'].nil?
+      unless element[1]['noun'].nil?
+        hash[element[0]] += element[1]['noun']['syn']
+      end
+    else
+      unless element[1]['adjective']['syn'].nil?
+        hash[element[0]] += element[1]['adjective']['syn']
+      end
+    end
+  end
+  hash
+end
+
 def read_file(filename)
   JSON.parse(File.read("#{filename}.json"))
 end
@@ -145,5 +163,5 @@ end
 # write_file('candidate2', candidate2)
 # puts "[#{Time.now.to_s}][terminated]"
 
-debugger
-json = read_file('hiring')
+byebug
+byebug
